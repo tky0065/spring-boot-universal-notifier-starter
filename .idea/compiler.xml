@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for Spring Boot Universal Notifier" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="notifier-push-firebase" />
+        <module name="notifier-email-sendgrid" />
+        <module name="notifier-core" />
+        <module name="notifier-starter" />
+        <module name="notifier-sms-twilio" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="notifier-core" options="-parameters" />
+      <module name="notifier-email-sendgrid" options="-parameters" />
+      <module name="notifier-push-firebase" options="-parameters" />
+      <module name="notifier-sms-twilio" options="-parameters" />
+      <module name="notifier-starter" options="-parameters" />
+      <module name="spring-boot-universal-notifier-starter" options="-parameters" />
+    </option>
+  </component>
+</project>

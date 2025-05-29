@@ -1,0 +1,22 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Gradle files
+/.gradle/
+# Gradle wrapper files
+/gradle-wrapper.jar
+.idea
+GUIDLINE.md
+.build
+
+target/
+# IntelliJ IDEA project files
+*.iml
+*.ipr
+*.iws
+# IntelliJ IDEA caches
