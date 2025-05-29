@@ -2,7 +2,7 @@
 
 ## 📢 Présentation
 
-Le module **Spring Boot Universal Notifier Starter** est une solution complète pour l'envoi de notifications à travers différents canaux (email, SMS, push) dans les applications Spring Boot. Ce starter permet une intégration rapide et une configuration simple via le fichier application.properties/yml.
+Le module **Spring Boot Universal Notifier Starter** est une solution complète pour l'envoi de notifications à travers différents canaux (email, SMS, push, WhatsApp, Telegram) dans les applications Spring Boot. Ce starter permet une intégration rapide et une configuration simple via le fichier application.properties/yml.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -25,7 +25,7 @@ Le module **Spring Boot Universal Notifier Starter** est une solution complète 
 
 ```xml
 <dependency>
-    <groupId>io.github.universal-notifier</groupId>
+    <groupId>io.github.tky0065.universal-notifier</groupId>
     <artifactId>notifier-starter</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
@@ -34,7 +34,7 @@ Le module **Spring Boot Universal Notifier Starter** est une solution complète 
 ### Gradle
 
 ```groovy
-implementation 'io.github.universal-notifier:notifier-starter:1.0.0-SNAPSHOT'
+implementation 'io.github.tky0065.universal-notifier:notifier-starter:1.0.0-SNAPSHOT'
 ```
 
 ## ⚙️ Configuration
@@ -195,15 +195,20 @@ public class MyCustomProvider implements NotificationProvider {
 
 ## 📝 ToDo
 
-- Ajouter le support pour d'autres fournisseurs (WhatsApp, Telegram, etc.)
+- Améliorer la documentation des API
 - Ajouter des fonctionnalités de retry/fallback
 - Ajouter des templates pour les notifications
 - Améliorer la gestion des erreurs et le reporting
+- Ajouter des tests d'intégration supplémentaires
 
-## 📄 License
+## 🤝 Contribution
 
-Ce projet est disponible sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+Les contributions sont les bienvenues ! N'hésitez pas à soumettre une issue ou une pull request.
 
-## 👥 Contribution
+## 📄 Licence
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à proposer une pull request.
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## 👨‍💻 Auteur
+
+Yacouba KONE - [EnokDev](https://enok-dev.vercel.app/)
