@@ -211,4 +211,4 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 
 ## 👨‍💻 Auteur
 
-Yacouba KONE - [EnokDev](https://enok-dev.vercel.app/)
+Yacouba KONE - [EnokDev](https://enokdev-com.vercel.app/)
