@@ -25,16 +25,16 @@ Le module **Spring Boot Universal Notifier Starter** est une solution complète 
 
 ```xml
 <dependency>
-    <groupId>io.github.tky0065.universal-notifier</groupId>
-    <artifactId>notifier-starter</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <groupId>io.github.tky0065</groupId>
+    <artifactId>spring-boot-universal-notifier-starter</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 
 ### Gradle
 
 ```groovy
-implementation 'io.github.tky0065.universal-notifier:notifier-starter:1.0.0-SNAPSHOT'
+implementation 'io.github.tky0065:spring-boot-universal-notifier-starter:1.0.0'
 ```
 
 ## ⚙️ Configuration
