@@ -72,7 +72,7 @@ notifier:
       twilio:
         account-sid: YOUR_TWILIO_SID
         auth-token: YOUR_TWILIO_TOKEN
-        from: "+123456789"
+        from: "+226XXXXXXXXX"  # Numéro WhatsApp enregistré
         
   telegram:
     provider: bot
@@ -139,7 +139,7 @@ public void sendPushNotification(String deviceToken, String title, String body) 
 public void sendWhatsAppMessage(String phoneNumber, String message) {
     NotificationRequest request = NotificationRequest.builder()
             .type("WHATSAPP")
-            .to(phoneNumber)  // Le numéro doit être au format international, ex: +33612345678
+            .to(phoneNumber)  // Le numéro doit être au format international, ex: +226XXXXXXXXX
             .message(message)
             .build();
     
